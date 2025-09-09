@@ -4,7 +4,7 @@ gets the length of media files and caches the result
 
 ## Installation
 
-Requires `python3.9+`
+Requires `python3.10+`
 
 To install with pip, run:
 

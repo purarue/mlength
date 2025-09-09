@@ -9,7 +9,8 @@ MEDIA is a list of media files to compute the duration of
 
 import sys
 import operator
-from typing import Optional, Sequence, Literal
+from typing import Optional, Literal
+from collections.abc import Sequence
 from pathlib import Path
 
 import click

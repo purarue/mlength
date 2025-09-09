@@ -1,4 +1,5 @@
-from typing import Optional, Sequence, Literal, Union
+from typing import Optional, Literal, Union
+from collections.abc import Sequence
 from pathlib import Path
 
 import click
