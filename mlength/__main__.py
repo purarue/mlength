@@ -9,7 +9,7 @@ MEDIA is a list of media files to compute the duration of
 
 import sys
 import operator
-from typing import Optional, Literal
+from typing import Literal
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -64,7 +64,7 @@ from . import MediaFile, display_duration, set_debug
 )
 def main(
     media: Sequence[Path],
-    operation: Optional[Literal["sum", "max", "min", "avg"]],
+    operation: Literal["sum", "max", "min", "avg"] | None,
     cache_dir: Path,
     lib: Literal["mediainfo", "ffprobe"],
     display: Literal["ms", "s", "m", "human", "path", "all"],

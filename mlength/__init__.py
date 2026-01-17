@@ -1,4 +1,4 @@
-from typing import Optional, Literal, Union
+from typing import Literal, Union
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -137,7 +137,7 @@ def display_duration(
     ms: Ms,
     *,
     display: Literal["ms", "path", "s", "m", "human", "all"],
-    path: Optional[Path],
+    path: Path | None,
 ) -> str:
     if display == "ms":
         return str(round(ms, 2))
