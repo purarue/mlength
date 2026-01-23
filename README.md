@@ -9,7 +9,7 @@ Requires `python3.10+`
 To install with pip, run:
 
 ```
-pip install git+https://github.com/purarue/mlength
+pip install mlength
 ```
 
 This requires either `ffprobe` (from `ffmpeg`) or [`mediainfo`](https://mediaarea.net/en/MediaInfo) to be installed.
